@@ -1,0 +1,229 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 80px;
+}
+
+.h1{
+    font-size: x-large;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-left: 0px;
+    justify-content: space-between;
+    background-color: rgb(186, 202, 159);
+}
+
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+      font-weight: bold;
+}
+
+.nav-links1{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap:25px;
+    margin-right: 120px;
+    margin-top: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-size: large;
+}
+
+.products{
+    margin-left: 80px;
+    padding: 90px;
+}
+
+.skincare{
+    background-image: url("images/skincare.avif");
+    height:700px;
+    width:1350px;
+}
+
+.shop{
+    width: 200px;
+    height:30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xxx-large;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 2px;
+}
+
+.candid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 70px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    background-color: lightslategray;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    font-size: xxx-large;
+    margin-top: 10px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box1{
+    flex-direction: row;
+    text-align: center;
+    font-size: large;
+}
+
+.box2{
+    text-align: center;
+    font-size: large;
+}
+
+.footer-design{
+    display: flex;
+    flex-direction: row;
+    background-color: lightslategray;
+    padding: 60px;
+    margin-right: 0cqb;
+    font-size: large;
+}
+
+.place-holder{
+   width:75%;
+   height:50%
+}
+
+.place-holder1{
+  width:75%;
+  height:50%
+}
+
+.place-holder2{
+   width:35%;
+  height:50%;
+  padding: 20px;
+
+}
+
+.sea2{
+    padding: 10px;
+}
+
+.sea3{
+      padding: 10px;
+}
+
+.sea4{
+    padding: 10px;
+}
+
+.box{
+    background-color: gray;
+}
+
+.gaelle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: rgb(186, 202, 159);
+}
+
+.content{
+    width:50%;
+    padding-left: 60px;
+    text-align: center;
+    padding: 50px;
+}
+
+.gaelle-image{
+    animation: slideright 1s ease forwards;
+    animation-delay: 0.2s;
+}
+
+@keyframes slideright{
+    from{
+        transform: translateX(60px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+h3{
+    font-size: xxx-large;
+    text-transform: capitalize;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+
+.selling{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.selling1{
+    display: flex;
+    flex-direction: row;
+}
+
+.selling button{
+    width: 40%;
+    height: 10%;
+    color: rgb(201, 156, 228);
+    background-color: black;
+}
+
+.selling li{
+       color: darkslategrey;
+       font-weight: bold;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.selling2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    text-transform: capitalize;
+    color: black;
+}
+
+.candid ul{
+    list-style: none;
+}
+
+.selling ul{
+    list-style: none;
+}
